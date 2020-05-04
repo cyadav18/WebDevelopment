@@ -1,0 +1,107 @@
+body{
+  text-align: center;
+}
+.top_container{
+  margin-bottom: 0;
+}
+.steve_image_container{
+  width: 50%;
+  padding-top: 1em;
+  display: inline-block;
+  text-align: center;
+}
+.steve_job_name_coantiner{
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  bottom: 5em;
+}
+.steve_job_name{
+  margin-bottom: 0;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+.steve_job_quote{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1em;
+}
+.steve_job_quote_content{
+  position: relative;
+  right: 5em;
+  font-family: 'Pacifico', cursive;
+}
+.steve_job_quote_by{
+  text-align: left;
+  padding-left: 10rem;
+  color: #ececec;
+  font-weight: bold;
+}
+.date_achivement_overall{
+  padding-bottom: 5em;
+  font-family: 'Dosis', sans-serif;
+}
+.date_achivement_container{
+  width: 60%;
+  margin-left: 5em;
+  border-style: none;
+  border-top-style: solid;
+  border-color: #CDCDCD;
+}
+.date_of_done{
+  width: 10%;
+  text-align: center;
+  float: left;
+  font-weight: bold;
+}
+.work_done{
+  display: inline-block;
+  text-align: left;
+  width: 85%;
+}
+.paragraph_container{
+  margin: 0 auto 10px;
+}
+.in_a_nutshell{
+  margin: 0;
+}
+.side_table{
+  clear: both;
+  position: absolute;
+  top: 35em;
+  right: 1em;
+  width: 35%;
+  text-align: center;
+}
+.side_table_apple_logo{
+  height:25%;
+  width: 25%;
+}
+.side_table_final{
+  margin: 0 auto;
+}
+.bottom_container{
+  background-color:#ececec;
+  padding: 1em 0 3em 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
+table{
+  table-layout: auto;
+  width: 70%;
+  border-spacing: 10px;
+}
+td{
+  border-bottom: 1px solid #CDCDCD;
+}
+.left_table{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
