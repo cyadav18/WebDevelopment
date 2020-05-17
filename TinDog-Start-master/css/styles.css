@@ -1,0 +1,157 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* HEADINGS */
+.main_heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* PADDING */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored_section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white_section{
+  background-color: #ffff;
+}
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* NAV BAR */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Download */
+.downlaod_button {
+  margin: 5% 3% 5% 0;
+}
+
+.section_one_image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* FEATURE SECTION */
+#features {
+  position: relative;
+}
+
+.icon_color {
+  color: #ef8712;
+  margin-bottom: 2rem;
+}
+
+.feature_row {
+  padding: 4.5%;
+}
+
+.icon_color_hover:hover {
+  color: #ff4c68
+}
+.feature_heading_3{
+  font-size: 1.5rem;
+}
+/* Testimonials Scetion */
+#testimonials {
+  background-color: #ef8712;
+}
+.testimonial_heading{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.testimonial_image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS SECTION */
+#press {
+  background-color: #ef8712;
+  padding-bottom: 3%;
+
+}
+
+.press_image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* PRICING SECTION */
+#pricing{
+  padding: 7% 15%;
+}
+.pricing_container{
+  margin: 5% auto;
+}
+.pricing_header{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.pricing_heading_3{
+  font-size: 1.5rem;
+}
+
+/* CTA */
+
+.foot_container_buttons{
+  margin: 0 3%;
+}
+
+.foot_container_images{
+  margin-bottom: 2%;
+}
+.footer_img{
+  margin: 20px 10px;
+}
+
+@media (max-width:1290px) {
+  #title{
+    text-align: center;
+  }
+  .section_one_image{
+    position: static;
+    transform: rotate(0);
+  }
+  .foot_container_buttons{
+    margin: 5% 0;
+  }
+}

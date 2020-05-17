@@ -1,0 +1,34 @@
+body{
+  background-color: #a9d7e9;
+  text-align: center;
+  padding-top: 3em;
+}
+.main_division{
+  background-color: #f3f3f3;
+   border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+     width: 800px;
+     margin: auto;
+}
+.form_row{
+  margin: 1em;
+  display: block;
+  position: static;
+}
+.row_data1{
+  display: inline-block;
+  padding-right: 3em;
+  width: 40%;
+  text-align: right;
+}
+.row_data2{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.input_field{
+  width: 60%;
+  height: 20px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
