@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Web Dovelopment\Dicee Challenge - Starting Files\Dicee Challenge - Starting Files\styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body onload="onloadFunction()">
+
+  <div class="container">
+    <h1>Refresh Me</h1>
+
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice6.png">
+    </div>
+
+  </div>
+  <div class="refresher">
+    <button type="button" class="btn btn-outline-light btn-block" onclick="rotateDice()">Draw</button>
+  </div>
+  <div class="score-table">
+    <table class="table table-borderless table-Default">
+      <thead>
+        <tr>
+          <th scope="col"><p>Player1</p></th>
+          <th scope="col"><p>Player2</p></th>
+          <th scope="col"><p>Leading</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p class = "p1score">0</p></td>
+          <td><p class = "p2score">0</p></td>
+          <td><p class = "leadscore">0</p></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+<footer>
+  www 🎲 App Brewery 🎲 com
+</footer>
+
+</html>

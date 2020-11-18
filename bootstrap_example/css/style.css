@@ -1,0 +1,11 @@
+
+
+.nav-topic {
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  font-size: 2rem;
+  line-height: 1 ;
+  padding-left: 2%;
+  border-left: solid white;
+}

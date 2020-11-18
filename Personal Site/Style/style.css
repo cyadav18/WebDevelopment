@@ -17,11 +17,67 @@ h1{
 }
 /*****************************class tags******************************/
 .paragraph:haver{
-  background-color: rgb(55, 155, 255
-    
+  background-color: rgb(55, 155, 255);
+
 }
 .MainImage{
   height: 60%;
   border-radius: 50%;
    transform: rotate(-15deg);
+}
+.first-div{
+  width:100px;
+  height:100px;
+  background-color:yellow;
+}
+.second-div{
+  width:100px;
+  height:100px;
+  background-color:red;
+  position:relative;
+  bottom:80px;
+  left:20px;
+}
+.third-div{
+  width:100px;
+  height:100px;
+  background-color:blue;
+  position:relative;
+  bottom:160px;
+  left:40px;
+}
+.first-div1{
+  width:100px;
+  height:100px;
+  background-color:yellow;
+  position:relative;
+  left:100px;
+}
+.second-div2{
+  width:100px;
+  height:100px;
+  background-color:red;
+  position:relative;
+  bottom:80px;
+  left:80px;
+}
+.third-div3{
+  width:100px;
+  height:100px;
+  background-color:blue;
+  position:relative;
+  bottom:160px;
+  left:60px;
+}
+.container1{
+  display:inline-block;
+  margin: 0;
+  border: 0;
+}
+.container2{
+  display:inline-block;
+  margin: 0;
+  border: 0;
+  position: relative;
+  right:25px;
 }
